@@ -51,7 +51,8 @@ UDP Port (e.g., 14550)                          UDP Port (e.g., 14551)
 ## Chapter 1.2: Firmware Acquisition & Architectural Workflow
 
 Before configuring parameters, you must flash the target hardware with a specialized simulation binary. Standard production ArduCopter firmware builds look for physical SPI/I2C sensor buses on boot. The **SimOnHardware** binary compiles ArduPilot's internal kinematic simulation physics engine directly alongside the core flight controller logic on the microcontroller chip.
-
+I have already added the firmware that is required in this repo named arducopter.apj.
+(If you have downloaded from my git, the ignore the step below.
 ### 1. Downloading the Correct Firmware Build
 Navigate to the official ArduPilot firmware server to find your specific hardware target (e.g., Pixhawk4, CubeOrange, MatekH743):
 
